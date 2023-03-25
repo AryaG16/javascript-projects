@@ -1,0 +1,80 @@
+body {
+  background-image: url("Passenger.jpeg");
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 90vh;
+  box-shadow: inset 0 0 0 1000px rgba(126, 20, 247, 0.2);
+}
+.container h1 {
+  padding: 15px;
+  color: beige;
+  text-shadow:
+  -3px 0px 0px rgb(0, 0, 0),
+  3px 0px 0px rgb(0, 0, 0),
+  0px -3px 0px rgb(0, 0, 0),
+  0px 3px 0px rgb(0, 0, 0);
+}
+h2 {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: aquamarine;
+}
+p{
+  padding: 12px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: aquamarine;
+  
+}
+button {
+  width: 180px;
+  font-size: large;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 8px;
+  border: none;
+  padding-top: 10px;
+  border-radius: 6px;
+}
+button:hover{
+  font-size: 20px;
+  text-shadow:
+  -2px 0px 0px rgb(255, 255, 255),
+  2px 0px 0px rgb(255, 255, 255),
+  0px -2px 0px rgb(255, 255, 255),
+  0px 2px 0px rgb(255, 255, 255);
+}
+#save-btn {
+  margin-top: 25px;
+  background-color: rgb(48, 47, 44);
+  color: white;
+}
+#reset-btn {
+  margin: 16px;
+}
+#clear-btn {
+  margin: 16px;
+}
+#save-btn:hover {
+  text-shadow:
+  -3px 0px 0px rgb(0, 0, 0),
+  3px 0px 0px rgb(0, 0, 0),
+  0px -3px 0px rgb(0, 0, 0),
+  0px 3px 0px rgb(0, 0, 0);
+}
+
+#increment-btn {
+  background-color: rgb(48, 47, 44);
+  color: rgb(60, 255, 0);
+}
+#decrement-btn {
+  background-color: rgb(48, 47, 44);
+  color: red;
+}
